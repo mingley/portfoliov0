@@ -7,7 +7,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 5000;
 
 const bodyParser = require('body-parser');
-const sendGrid = require('@sendGrid/mail');
+const sendGrid = require('@sendgrid/mail');
 require('dotenv').config();
 
 // Multi-process to utilize all CPU cores.
@@ -36,7 +36,6 @@ if (!isDev && cluster.isMaster) {
   });
 
   app.post('/api/email', (req, res, next) => {
-    console.log('called recieved in backend');
     sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
       to: 'michael.ingley@gmail.com',
