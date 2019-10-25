@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Card from './Card';
 
 import imgtext from '../assets/images/budget.jpg';
-import imgtext1 from '../assets/images/todo2.png';
-import imgtext2 from '../assets/images/tree2.jpg';
+import imgtext1 from '../assets/images/images.jfif';
+import imgtext2 from '../assets/images/todo2.png';
 
 class Carousel extends React.Component {
 constructor(props){
@@ -23,18 +23,18 @@ constructor(props){
             },
             {
                 id: 1,
-                title: 'To-do application',
-                subTitle: 'Helps you track to-do items!',
+                title: 'Sorting Algorithm Visualizer',
+                subTitle: 'Displays the inner mechanics of a sorting algorithm working on random data.',
                 imgSrc: imgtext1,
-                link: 'https://mi-vstda.herokuapp.com/',
+                link: 'https://sortvisual.herokuapp.com/',
                 selected: false
             },
             {
                 id: 2,
-                title: 'sample portfolio',
-                subTitle: 'an early attempt at a portfolio page',
+                title: 'Productivity app',
+                subTitle: 'Helps you track to-do items!',
                 imgSrc: imgtext2,
-                link: 'https://ops200folio.herokuapp.com/',
+                link: 'https://mi-vstda.herokuapp.com/',
                 selected: false
             }
         ]

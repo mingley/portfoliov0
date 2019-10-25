@@ -23,8 +23,8 @@ class App extends React.Component {
       ],
       home:{
         title: 'Be relentless.',
-        subTitle: 'improve and redefine yourself.',
-        text: 'click on a picture to view a sample project I\'ve done.'  
+        subTitle: 'navy veteran transitioning into tech.',
+        text: 'view some projects by clicking below.'  
       },
       about:{
         title: 'About me'
