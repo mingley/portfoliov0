@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
-import imgtext from '../assets/images/budget.jpg';
+import imgtext from '../assets/images/tetris.png';
 import imgtext1 from '../assets/images/images.jfif';
 import imgtext2 from '../assets/images/todo2.png';
 
@@ -15,10 +15,10 @@ constructor(props){
         items:[
             {
                 id: 0,
-                title: 'Budget Tracker',
-                subTitle: 'Web app to help you track your budget',
+                title: 'Tetris',
+                subTitle: 'Tetris built with React',
                 imgSrc: imgtext,
-                link: 'https://react200budgetcalc.herokuapp.com/',
+                link: 'https://react-tetris-project.herokuapp.com/',
                 selected: false
             },
             {
@@ -32,7 +32,7 @@ constructor(props){
             {
                 id: 2,
                 title: 'Productivity app',
-                subTitle: 'Helps you track to-do items!',
+                subTitle: 'Helps you track to-do items and accomplish goals',
                 imgSrc: imgtext2,
                 link: 'https://mi-vstda.herokuapp.com/',
                 selected: false
